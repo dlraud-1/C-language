@@ -1,0 +1,20 @@
+다음 C언어 코드에서 구조체 멤버 y에 값 50을 대입하고 정상적으로 출력하기 위한 표현으로 옳지 않은 것을 고르시오.
+    struct Point {
+        int x;
+        int y;
+    };
+
+    struct Player {
+        struct Point *pos;
+    };
+
+    int main() {
+        struct Player player;
+        ___________ = 50;
+        printf("%d",___________);
+    }
+
+1. player.pos->y
+2. (player.pos)->y
+3. (*player.pos).y
+4. *player.pos.y (정답)

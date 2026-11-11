@@ -1,0 +1,8 @@
+다음 C언어 코드에서 발생하는 Segmentation Fault(강제 종료) 에러를 올바르게 해결한 코드 수정 방식으로 가장 적절한 것은?
+    1    char *str = "Hello";
+    2    str[0] = 'h';
+
+1. 1번 줄을 const char *str = "Hello"; 로 수정한다
+2. 1번 줄을 char *str = {'H', 'e', 'l', 'l', 'o'}; 로 수정한다
+3. 1번 줄을 char str[] = "Hello"; 로 수정한다 (정답)
+4. 2번 줄을 &str[0] = 'h'; 로 수정한다

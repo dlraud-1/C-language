@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main(){
+    int test[] = {1,2,3,4};
+    printf("test %i",2[test]);
+}
